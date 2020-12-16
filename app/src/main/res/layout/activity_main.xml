@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last day"
+        android:id="@+id/lastday"
+        android:textSize="15dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/text"
+        android:textColor="@color/black"
+        android:text=" Investment data from last day  - "
+        android:padding="5dp"
+        android:layout_below="@id/lastday"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/lastdayvalue"
+        android:textColor="@color/black"
+        android:hint=" 1000 "
+        android:padding="5dp"
+        android:layout_toEndOf="@id/text"
+        android:layout_below="@id/lastday"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last week"
+        android:id="@+id/lastweek"
+        android:layout_below="@id/text"
+        android:textSize="15dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/text2"
+        android:textColor="@color/black"
+        android:text=" Investment data from last week  - "
+        android:padding="5dp"
+        android:layout_below="@id/lastweek"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/lastweekvalue"
+        android:textColor="@color/black"
+        android:hint=" 1000 "
+        android:padding="5dp"
+        android:layout_toEndOf="@id/text"
+        android:layout_below="@id/lastweek"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last month"
+        android:id="@+id/lastmonth"
+        android:layout_below="@id/text2"
+        android:textSize="15dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/text3"
+        android:textColor="@color/black"
+        android:text=" Investment data from last month  - "
+        android:padding="5dp"
+        android:layout_below="@id/lastmonth"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/lastmonthvalue"
+        android:textColor="@color/black"
+        android:hint=" 1000 "
+        android:padding="5dp"
+        android:layout_toEndOf="@id/text3"
+        android:layout_below="@id/lastmonth"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last year"
+        android:id="@+id/lastyear"
+        android:layout_below="@id/text3"
+        android:textSize="15dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/text4"
+        android:textColor="@color/black"
+        android:text=" Investment data from last year - "
+        android:padding="5dp"
+        android:layout_below="@id/lastyear"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/lastyearvalue"
+        android:textColor="@color/black"
+        android:hint=" 1000 "
+        android:padding="5dp"
+        android:layout_toEndOf="@id/text"
+        android:layout_below="@id/lastyear"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All investment value"
+        android:id="@+id/all"
+        android:layout_below="@id/text4"
+        android:textSize="15dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/text5"
+        android:textColor="@color/black"
+        android:text=" All investment data  - "
+        android:padding="5dp"
+        android:layout_below="@id/all"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/allvalue"
+        android:textColor="@color/black"
+        android:hint=" 1000"
+        android:padding="5dp"
+        android:layout_toEndOf="@id/text5"
+        android:layout_below="@id/all"/>
+
+</RelativeLayout>
